@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="156dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <Button
+        android:id="@+id/boton_fact"
+        android:layout_width="379dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/material_dynamic_neutral70"
+        android:gravity="@string/change_password"
+        android:text="Facturación"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/boton_comprob2"
+        android:layout_width="428dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/boton_transpor"
+        android:layout_width="102dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/boton_prod" />
+
+    <Button
+        android:id="@+id/boton_cliente"
+        android:layout_width="102dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boton_comprob" />
+
+    <Button
+        android:id="@+id/boton_comprob"
+        android:layout_width="102dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/boton_prod"
+        android:layout_width="102dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="425dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/material_dynamic_neutral20"
+        android:text="                Jose Arciniega"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:tint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/ic_user"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="379dp"
+        android:layout_height="69dp"
+        android:backgroundTint="@color/material_dynamic_neutral70"
+        android:gravity="@string/change_password"
+        android:text="Guias de remisión"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="379dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/material_dynamic_neutral70"
+        android:gravity="@string/change_password"
+        android:text="Notas de débito"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="379dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/material_dynamic_neutral70"
+        android:gravity="@string/change_password"
+        android:text="Comprobantes de retención"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="379dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/material_dynamic_neutral70"
+        android:gravity="@string/change_password"
+        android:text="Notas de crédito"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="415dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="35dp"
+        android:background="@color/material_dynamic_neutral20"
+        android:text=" Comprobantes         Clientes          Transportistas       Productos"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
